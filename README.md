@@ -23,6 +23,7 @@
 ---
 
 Использована библиотека [Eclipse EGit Github Connector]
+
 Также некоторые полезные моменты я подсмотрел здесь:
 * [OctoDroid]
 * [How to create/update file with github api v3 from android]
