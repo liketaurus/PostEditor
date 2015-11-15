@@ -2,6 +2,8 @@
 
 Попытка создать простой клиент для создания постов для блога на базе GitHub Pages и Jekyll. Пока - для личных целей.
 
+->![Screenshot](https://github.com/liketaurus/PostEditor/files/Screen.JPG)<-
+
 **Что уже работает:**
 * подключение к GitHub
 * получение списка репозиториев
