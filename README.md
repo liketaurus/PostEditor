@@ -4,6 +4,8 @@
 
 ![Скриншот](https://raw.githubusercontent.com/liketaurus/PostEditor/master/files/Screen.JPG "Скриншот")
 
+Нетерпеливые:-) могут попробовать [очень сырой релиз].
+
 **Что уже работает:**
 * подключение к GitHub
 * получение списка репозиториев
@@ -33,6 +35,8 @@
 * [How to create/update file with github api v3 from android]
 * [Making a commit with the Github API]
 * [Error creating commit: Invalid request]
+
+[очень сырой релиз]: https://github.com/liketaurus/PostEditor/blob/master/files/JekyllPostEditor.jar
 
 [Eclipse EGit Github Connector]: https://github.com/eclipse/egit-github
 [OctoDroid]: https://github.com/slapperwan/gh4a
