@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Posteditor : Just tried to create a simple Jekyll post editor for using with GitHub pages">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Posteditor</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/liketaurus/PostEditor">View on GitHub</a>
+
+          <h1 id="project_title">Posteditor</h1>
+          <h2 id="project_tagline">Just tried to create a simple Jekyll post editor for using with GitHub pages</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/liketaurus/PostEditor/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/liketaurus/PostEditor/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="post-editor" class="anchor" href="#post-editor" aria-hidden="true"><span class="octicon octicon-link"></span></a>Post Editor</h1>
+
+<p>Попытка создать простой клиент для создания постов для блога на базе GitHub Pages и Jekyll. Пока - для личных целей.</p>
+
+<p><img src="https://raw.githubusercontent.com/liketaurus/PostEditor/master/files/Screen.JPG" alt="Скриншот" title="Скриншот"></p>
+
+<p><strong>Что уже работает:</strong></p>
+
+<ul>
+<li>подключение к GitHub</li>
+<li>получение списка репозиториев</li>
+<li>получение списка каталогов в репозитории</li>
+<li>формирование имени файла стандартного для Jekyll вида</li>
+<li>создание поста со стандартной шапкой и контентом, введенным пользователем</li>
+<li>сохранение временного файла поста в папке проекта</li>
+<li>создание и коммит файла в выбранном каталоге выбранного репозитория</li>
+</ul>
+
+<p><strong>Что только планируется:</strong></p>
+
+<ul>
+<li>рефакторинг кода</li>
+<li>возможность сохранения настроек (имя пользователя, пароль, репозиторий, каталог)</li>
+<li>улучшение и "полировка" UI</li>
+<li>WYSIWYG-редактор для Markdown-постов</li>
+<li>удаление файла поста после публикации</li>
+<li>визуальное подтверждение успешной публикации (возможно, открытие поста в браузере)</li>
+<li>...</li>
+</ul>
+
+<p>Любая помощь приветствуется:-)</p>
+
+<hr>
+
+<p>Использована библиотека <a href="https://github.com/eclipse/egit-github">Eclipse EGit Github Connector</a></p>
+
+<p>Также некоторые полезные моменты я подсмотрел здесь:</p>
+
+<ul>
+<li><a href="https://github.com/slapperwan/gh4a">OctoDroid</a></li>
+<li><a href="https://gist.github.com/Detelca/2337731">How to create/update file with github api v3 from android</a></li>
+<li><a href="http://mdswanson.com/blog/2011/07/23/digging-around-the-github-api-take-2.html">Making a commit with the Github API</a></li>
+<li><a href="https://github.com/github/maven-plugins/issues/69">Error creating commit: Invalid request</a></li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Posteditor maintained by <a href="https://github.com/liketaurus">liketaurus</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
